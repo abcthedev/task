@@ -1,0 +1,60 @@
+.profile {
+  background: white;
+  padding: 0.3rem 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+}
+.profile-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.w-96 {
+  width: 96%;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+.subpage-header {
+  top: 10rem;
+  max-width: 20rem;
+  left: 5rem;
+  word-wrap: break-word;
+  z-index: 1;
+}
+
+.subpage-subheader {
+  max-width: 15rem;
+  top: 17rem;
+  left: 5rem;
+  word-wrap: break-word;
+  z-index: 1;
+}
+
+.search-block{
+  top: 25rem;
+  left: 18rem;
+  z-index: 1;
+}
+
+
+.carousel__image {
+	position: absolute;
+	left: 0;
+	opacity: 0;
+	top: 0;
+	transform: scale(1.1);
+	transition: all .15s ease-out;
+}
+.carousel__image:active {
+		opacity: 1;
+		transform: scale(1);
+	}
+

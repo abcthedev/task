@@ -1,0 +1,24 @@
+.text {
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  
+  .text.Paragraph {
+    font-size: 14px;
+    color: #808080;
+  }
+  
+  .text.Subheading {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .text.Heading {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .text.margin {
+    margin: 1rem;
+  }
+
